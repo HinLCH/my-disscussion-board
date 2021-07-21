@@ -1,0 +1,21 @@
+@import './style/Post.scss';
+
+* {
+  margin: 0;
+}
+
+.App{
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.app-header{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .app-header-image{
+    background-color: #fff;
+    object-fit: contain;
+  }
+}
